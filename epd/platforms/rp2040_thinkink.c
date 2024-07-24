@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "hardware/spi.h"
 #include "pico/stdlib.h"
-#include "epd/platforms/rp2040_thinkink.h"
+#include "../platforms/rp2040_thinkink.h"
 
 #define RP2040_SPI spi0
 

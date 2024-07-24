@@ -1,5 +1,5 @@
 #include "E2B98FS081.h"
-#include "epd/platforms/platform.h"
+#include "../platforms/platform.h"
 
 
 // Panel API

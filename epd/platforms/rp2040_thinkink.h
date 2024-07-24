@@ -1,9 +1,9 @@
 #pragma once
 
-#include "epd/drivers/console.h"
-#include "epd/drivers/gpio.h"
-#include "epd/drivers/spi.h"
-#include "epd/drivers/time.h"
+#include "../drivers/console.h"
+#include "../drivers/gpio.h"
+#include "../drivers/spi.h"
+#include "../drivers/time.h"
 #include "pico/stdlib.h"
 
 /* BSP for RP2040 Thinkink using RP2040 SDK */
