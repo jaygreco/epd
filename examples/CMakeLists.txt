@@ -15,12 +15,13 @@ add_executable(epd_driver)
 
 target_sources(epd_driver PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}/main.c
-    ${CMAKE_CURRENT_LIST_DIR}/epd/platforms/rp2040_thinkink.c
-    ${CMAKE_CURRENT_LIST_DIR}/epd/panels/E2B98FS081.c
+    ${CMAKE_CURRENT_LIST_DIR}/../epd/platforms/rp2040_thinkink.c
+    ${CMAKE_CURRENT_LIST_DIR}/../epd/panels/E2B98FS081.c
     )
 
 target_include_directories(epd_driver PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}
+    ${CMAKE_CURRENT_LIST_DIR}/../
     )
 
 pico_enable_stdio_usb(epd_driver 1)
